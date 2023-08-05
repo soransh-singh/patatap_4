@@ -1,4 +1,4 @@
-add_library('sound')
+# import processing
 def setup():
     fullScreen()
     frameRate(40)
@@ -49,109 +49,109 @@ def draw():
 def keyPressed():
     global flagA,flagB,flagC,flagD,flagE,flagF,flagG,flagH,flagI,flagJ,flagK,flagL,flagM,flagN,flagO,flagP,flagQ,flagR,flagS,flagT,flagU,flagV,flagW,flagX,flagY,flagZ
     if ((key == 'a')or(key=='A'))and(flagA==0):
-        soundA=SoundFile(this,'piston-2.mp3')
-        soundA.play()
+        # soundA=processing.sound.SoundFile(this,'piston-2.mp3')
+        # soundA.play()
         flagA=1
     if ((key=='b')or(key=='B'))and (flagB==0):
         flagB=1
-        soundB=SoundFile(this,'flash-3.mp3')
-        soundB.play()
+        # soundB=SoundFile(this,'flash-3.mp3')
+        # soundB.play()
     if ((key=='c')or(key=='C'))and(flagC==0):
         flagC=1
-        soundC=SoundFile(this,'flash-1.mp3')
-        soundC.play()
+        # soundC=SoundFile(this,'flash-1.mp3')
+        # soundC.play()
     if ((key=='d')or(key=='D'))and(flagD==0):
         flagD=1
-        soundD=SoundFile(this,'moon.mp3')
-        soundD.play()
+        # soundD=SoundFile(this,'moon.mp3')
+        # soundD.play()
     if ((key=='e')or(key=='E'))and(flagE==0):
         flagE=1
-        soundE=SoundFile(this,'confetti.mp3')
-        soundE.play()
+        # soundE=SoundFile(this,'confetti.mp3')
+        # soundE.play()
     if((key=='f')or(key=='F'))and(flagF==0):
         flagF=1
-        soundF=SoundFile(this,'corona.mp3')
-        soundF.play()
+        # soundF=SoundFile(this,'corona.mp3')
+        # soundF.play()
     if((key=='g')or(key=='G'))and(flagG==0):
         flagG=1
-        soundG=SoundFile(this,'flash-2.mp3')
-        soundG.play()        
+        # soundG=SoundFile(this,'flash-2.mp3')
+        # soundG.play()        
     if((key=='h')or(key=='H'))and(flagH==0):
         flagH=1
-        soundH=SoundFile(this,'wipe.mp3')
-        soundH.play()
+        # soundH=SoundFile(this,'wipe.mp3')
+        # soundH.play()
     if((key=='i')or(key=='I'))and(flagI==0):
         flagI=1
-        soundI=SoundFile(this,'glimmer.mp3')
-        soundI.play()
+        # soundI=SoundFile(this,'glimmer.mp3')
+        # soundI.play()
     if((key=='j')or(key=='J'))and(flagJ==0):
         flagJ=1
-        soundJ=SoundFile(this,'strike.mp3')
-        soundJ.play()
+        # soundJ=SoundFile(this,'strike.mp3')
+        # soundJ.play()
     if((key=='k')or(key=='K'))and(flagK==0):
         flagK=1
-        soundK=SoundFile(this,'pinwheel.mp3')
-        soundK.play()
+        # soundK=SoundFile(this,'pinwheel.mp3')
+        # soundK.play()
     if((key=='l')or(key=='L'))and(flagL==0):
         flagL=1
-        soundL=SoundFile(this,'ufo.mp3')
-        soundL.play()
+        # soundL=SoundFile(this,'ufo.mp3')
+        # soundL.play()
     if((key=='m')or(key=='M'))and(flagM==0):
         flagM=1
-        soundM=SoundFile(this,'splits.mp3')
-        soundM.play()
+        # soundM=SoundFile(this,'splits.mp3')
+        # soundM.play()
     if((key=='n')or(key=='N'))and(flagN==0):
         flagN=1
-        soundN=SoundFile(this,'prism-1.mp3')
-        soundN.play()
+        # soundN=SoundFile(this,'prism-1.mp3')
+        # soundN.play()
     if((key=='o')or(key=='O'))and(flagO==0):
         flagO=1
-        soundO=SoundFile(this,'squiggle.mp3')
-        soundO.play()
+        # soundO=SoundFile(this,'squiggle.mp3')
+        # soundO.play()
     if((key=='p')or(key=='P'))and(flagP==0):
         flagP=1
-        soundP=SoundFile(this,'zig-zag.mp3')
-        soundP.play()
+        # soundP=SoundFile(this,'zig-zag.mp3')
+        # soundP.play()
     if((key=='q')or(key=='Q'))and(flagQ==0):
         flagQ=1
-        soundQ=SoundFile(this,'dotted-spiral.mp3')
-        soundQ.play()
+        # soundQ=SoundFile(this,'dotted-spiral.mp3')
+        # soundQ.play()
     if((key=='r')or(key=='R'))and(flagR==0):
         flagR=1
-        soundR=SoundFile(this,'bubbles.mp3')
-        soundR.play()
+        # soundR=SoundFile(this,'bubbles.mp3')
+        # soundR.play()
     if((key=='s')or(key=='S'))and(flagS==0):
         flagS=1
-        soundS=SoundFile(this,'prism-2.mp3')
-        soundS.play()
+        # soundS=SoundFile(this,'prism-2.mp3')
+        # soundS.play()
     if((key=='t')or(key=='T'))and(flagT==0):
         flagT=1
-        soundT=SoundFile(this,'prism-3.mp3')
-        soundT.play()
+        # soundT=SoundFile(this,'prism-3.mp3')
+        # soundT.play()
     if((key=='u')or(key=='U'))and(flagU==0):
         flagU=1
-        soundU=SoundFile(this,'piston-3.mp3')
-        soundU.play()
+        # soundU=SoundFile(this,'piston-3.mp3')
+        # soundU.play()
     if((key=='v')or(key=='V'))and(flagV==0):
         flagV=1
-        soundV=SoundFile(this,'timer.mp3')
-        soundV.play()
+        # soundV=SoundFile(this,'timer.mp3')
+        # soundV.play()
     if((key=='w')or(key=='W'))and(flagW==0):
         flagW=1
-        soundW=SoundFile(this,'veil.mp3')
-        soundW.play()
+        # soundW=SoundFile(this,'veil.mp3')
+        # soundW.play()
     if((key=='x')or(key=='X'))and(flagX==0):
         flagX=1
-        soundX=SoundFile(this,'suspension.mp3')
-        soundX.play()
+        # soundX=SoundFile(this,'suspension.mp3')
+        # soundX.play()
     if((key=='y')or(key=='Y'))and(flagY==0):
         flagY=1
-        soundY=SoundFile(this,'clay.mp3')
-        soundY.play()
+        # soundY=SoundFile(this,'clay.mp3')
+        # soundY.play()
     if((key=='z')or(key=='Z'))and(flagZ==0):
         flagZ=1
-        soundZ=SoundFile(this,'piston-1.mp3')
-        soundZ.play()
+        # soundZ=SoundFile(this,'piston-1.mp3')
+        # soundZ.play()
         
         
                         
